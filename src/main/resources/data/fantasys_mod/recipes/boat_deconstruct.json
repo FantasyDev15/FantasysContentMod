@@ -1,0 +1,16 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_boat"
+    },
+    {
+      "item": "fantasys_mod:deconstructor"
+    }
+  ],
+  "result": {
+    "item": "minecraft:oak_planks",
+    "count": 5
+  }
+}

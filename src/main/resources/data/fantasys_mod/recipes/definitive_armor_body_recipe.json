@@ -1,0 +1,39 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "2": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "3": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "4": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "5": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "6": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "7": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "8": {
+      "item": "fantasys_mod:definitive_gem"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:definitive_armor_chestplate",
+    "count": 1
+  }
+}

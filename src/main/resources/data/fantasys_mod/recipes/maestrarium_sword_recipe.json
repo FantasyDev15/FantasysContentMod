@@ -1,0 +1,24 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:maestrarium_ingot"
+    },
+    "1": {
+      "item": "fantasys_mod:maestrarium_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:maestrarium_sword",
+    "count": 1
+  }
+}

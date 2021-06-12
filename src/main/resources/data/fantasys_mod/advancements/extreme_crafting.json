@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "fantasys_mod:extremum_ingot"
+    },
+    "title": {
+      "translate": "advancements.extreme_crafting.title"
+    },
+    "description": {
+      "translate": "advancements.extreme_crafting.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "extreme_crafting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "fantasys_mod:extremum_ingot",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "fantasys_mod:the_final_countdown"
+}

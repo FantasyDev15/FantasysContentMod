@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fantasys_mod:blocks/op_block",
+    "up": "fantasys_mod:blocks/op_block",
+    "north": "fantasys_mod:blocks/op_block",
+    "east": "fantasys_mod:blocks/op_block",
+    "south": "fantasys_mod:blocks/op_block",
+    "west": "fantasys_mod:blocks/op_block",
+    "particle": "fantasys_mod:blocks/op_block"
+  }
+}

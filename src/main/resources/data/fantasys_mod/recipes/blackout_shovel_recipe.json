@@ -1,0 +1,24 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:final_gem"
+    },
+    "1": {
+      "item": "fantasys_mod:final_stick"
+    },
+    "2": {
+      "item": "fantasys_mod:final_stick"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:blackout_shovel",
+    "count": 1
+  }
+}

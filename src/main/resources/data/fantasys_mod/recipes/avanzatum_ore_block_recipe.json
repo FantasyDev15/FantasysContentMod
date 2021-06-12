@@ -1,0 +1,42 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "1": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "2": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "3": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "4": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "5": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "6": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "7": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    },
+    "8": {
+      "item": "fantasys_mod:avanzatum_ingot"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:avanzatum_block",
+    "count": 1
+  }
+}

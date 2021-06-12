@@ -1,0 +1,13 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fantasys_mod:maestrarium_block"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:maestrarium_ingot",
+    "count": 9
+  }
+}

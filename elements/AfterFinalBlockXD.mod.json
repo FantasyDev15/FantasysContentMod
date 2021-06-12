@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      },
+      {
+        "value": "CUSTOM:AfterFinalGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AfterFinalBlock"
+    },
+    "name": "after_final_block_xd",
+    "namespace": "mod"
+  }
+}

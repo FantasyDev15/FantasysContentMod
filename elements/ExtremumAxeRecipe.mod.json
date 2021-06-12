@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ExtremumIngot"
+      },
+      {
+        "value": "CUSTOM:ExtremumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ExtremumIngot"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ExtremumAxe"
+    },
+    "name": "extremum_axe_recipe",
+    "namespace": "mod"
+  }
+}

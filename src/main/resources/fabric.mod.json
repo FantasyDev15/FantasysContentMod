@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fantasys_mod",
+  "version": "1.0.1",
+  "name": "Fantasy's Content Mod",
+  "description": "Lots of minerals and things for your minecraft world.",
+  "authors": [
+    "FantasyWasTaken"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": "https://github.com/ClothCreators/MCreatorFabricGenerator"
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fantasymods.fantasys_content.FantasysModMod"
+    ],
+    "client": [
+      "com.fantasymods.fantasys_content.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}

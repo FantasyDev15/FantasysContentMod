@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fantasys_mod:blocks/expertenium_ore",
+    "particle": "fantasys_mod:blocks/expertenium_ore"
+  }
+}

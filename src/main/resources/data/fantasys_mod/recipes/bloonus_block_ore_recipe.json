@@ -1,0 +1,28 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "fantasys_mod:greenus_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "fantasys_mod:greenus_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "fantasys_mod:greenus_ingot"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:bloonus_ingot",
+    "count": 2
+  }
+}

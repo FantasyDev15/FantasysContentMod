@@ -1,0 +1,28 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "fantasys_mod:bloonus_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "fantasys_mod:bloonus_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:intermedium_ingot",
+    "count": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:smelting",
+  "experience": 4.199999999999999,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "fantasys_mod:avanzatum_ore"
+  },
+  "result": "fantasys_mod:avanzatum_ingot"
+}

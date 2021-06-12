@@ -1,0 +1,42 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "1": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "2": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "3": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "4": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "5": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "6": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "7": {
+      "item": "fantasys_mod:after_final_block"
+    },
+    "8": {
+      "item": "fantasys_mod:after_final_block"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:definitive_gem",
+    "count": 1
+  }
+}

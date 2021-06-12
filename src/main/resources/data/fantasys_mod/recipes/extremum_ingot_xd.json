@@ -1,0 +1,37 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fantasys_mod:ultimatum_block"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "fantasys_mod:ultimatum_block"
+    },
+    {
+      "item": "fantasys_mod:ultimatum_block"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "fantasys_mod:ultimatum_block"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:extremum_ingot",
+    "count": 2
+  }
+}

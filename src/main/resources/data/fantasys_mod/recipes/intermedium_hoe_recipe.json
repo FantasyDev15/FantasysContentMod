@@ -1,0 +1,27 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:intermedium_ingot"
+    },
+    "1": {
+      "item": "fantasys_mod:intermedium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:intermedium_hoe",
+    "count": 1
+  }
+}

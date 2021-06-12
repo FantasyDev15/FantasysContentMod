@@ -1,0 +1,28 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fantasys_mod:bloonus_block"
+    },
+    {
+      "item": "fantasys_mod:intermedium_ingot"
+    },
+    {
+      "item": "fantasys_mod:greenus_block"
+    },
+    {
+      "item": "fantasys_mod:greenus_block"
+    },
+    {
+      "item": "fantasys_mod:intermedium_ingot"
+    },
+    {
+      "item": "fantasys_mod:bloonus_block"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:avanzatum_ingot",
+    "count": 5
+  }
+}

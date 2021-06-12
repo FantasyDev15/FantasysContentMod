@@ -1,0 +1,28 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fantasys_mod:avanzatum_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "fantasys_mod:intermedium_block"
+    },
+    {
+      "item": "fantasys_mod:avanzatum_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "fantasys_mod:intermedium_block"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:expertenium_ingot",
+    "count": 4
+  }
+}

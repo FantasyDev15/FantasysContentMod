@@ -1,0 +1,20 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "1": {
+      "item": "fantasys_mod:definitive_gem"
+    }
+  },
+  "result": {
+    "item": "fantasys_mod:definitive_tool_rod",
+    "count": 1
+  }
+}

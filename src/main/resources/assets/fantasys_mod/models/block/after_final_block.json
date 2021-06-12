@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fantasys_mod:blocks/after_final_block",
+    "up": "fantasys_mod:blocks/after_final_block",
+    "north": "fantasys_mod:blocks/after_final_block",
+    "east": "fantasys_mod:blocks/after_final_block",
+    "south": "fantasys_mod:blocks/after_final_block",
+    "west": "fantasys_mod:blocks/after_final_block",
+    "particle": "fantasys_mod:blocks/after_final_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "fantasys_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fantasys_mod:extremum_ingot"
+    },
+    {
+      "item": "fantasys_mod:deconstructor"
+    }
+  ],
+  "result": {
+    "item": "fantasys_mod:ultimatum_ingot",
+    "count": 2
+  }
+}

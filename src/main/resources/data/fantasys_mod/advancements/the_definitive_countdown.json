@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "fantasys_mod:definitive_gem"
+    },
+    "title": {
+      "translate": "advancements.the_definitive_countdown.title"
+    },
+    "description": {
+      "translate": "advancements.the_definitive_countdown.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_definitive_countdown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "fantasys_mod:definitive_gem",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 9999
+  },
+  "parent": "fantasys_mod:the_final_countdown"
+}
