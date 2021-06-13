@@ -15,6 +15,7 @@ package com.fantasymods.fantasys_content;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.minecraft.world.GameRules;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.item.ItemGroup;
@@ -27,6 +28,8 @@ import net.minecraft.block.Block;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.api.ModInitializer;
 
+import com.fantasymods.fantasys_content.world.EnderPigHealthGameRule;
+import com.fantasymods.fantasys_content.procedures.EnderPigOnEntityTickUpdateProcedure;
 import com.fantasymods.fantasys_content.item.UltimatumSwordTool;
 import com.fantasymods.fantasys_content.item.UltimatumShovelTool;
 import com.fantasymods.fantasys_content.item.UltimatumPickaxeTool;
@@ -345,9 +348,20 @@ public class FantasysModMod implements ModInitializer {
 	public static final Item DefinitiveSword_ITEM = Registry.register(Registry.ITEM, id("definitive_sword"), DefinitiveSwordTool.INSTANCE);
 	public static final Item DefinitiveShovel_ITEM = Registry.register(Registry.ITEM, id("definitive_shovel"), DefinitiveShovelTool.INSTANCE);
 	public static final Item DefinitiveHoe_ITEM = Registry.register(Registry.ITEM, id("definitive_hoe"), DefinitiveHoeTool.INSTANCE);
+	public static final GameRules.Key<GameRules.IntRule> EnderPigHealth = EnderPigHealthGameRule.gamerule;
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing FantasysModMod");
+		GreenusOreBlock.Generation.init();
+		BloonusOreBlock.Generation.init();
+		IntermediumOreBlock.Generation.init();
+		AvanzatumOreBlock.Generation.init();
+		ExperteniumOreBlock.Generation.init();
+		MaestrariumOreBlock.Generation.init();
+		UltimatumOreBlock.Generation.init();
+		ExtremumOreBlock.Generation.init();
+		EmeraldIngotOreBlock.Generation.init();
+		new EnderPigOnEntityTickUpdateProcedure();
 		OreGuyEntity.init();
 		EnderPigEntity.init();
 		CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {

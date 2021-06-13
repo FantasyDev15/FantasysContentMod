@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class ExperteniumBlockBlock extends Block {
 	public ExperteniumBlockBlock() {
-		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).strength(5F, 10F).luminance(0)
+		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).strength(5f, 10f).luminance(0)
 				.breakByTool(FabricToolTags.PICKAXES, 14).requiresTool());
 	}
 

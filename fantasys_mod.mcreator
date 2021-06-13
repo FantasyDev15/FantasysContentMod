@@ -2337,9 +2337,49 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "architect_with_an_eraser"
+    },
+    {
+      "name": "EnderPigHealth",
+      "type": "gamerule",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderPigHealth",
+      "metadata": {
+        "type": "number"
+      }
+    },
+    {
+      "name": "EnderPigOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ender_pig_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "EnderPigHealth",
+      "type": "number",
+      "scope": "global",
+      "value": "60.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -2382,6 +2422,7 @@
       "item.fantasys_mod.ender_pig_spawn_egg": "Ender Pig Spawn Egg",
       "item.fantasys_mod.ultimatum_armor_helmet": "Ultimatum Helmet",
       "block.fantasys_mod.avanzatum_ore": "Avanzatum Ore",
+      "gamerule.enderPigHealth": "Ender Pig\u0027s Health",
       "item.fantasys_mod.maestrarium_hoe": "Maestrarium Hoe",
       "item.fantasys_mod.greenus_armor_boots": "Greenus Boots",
       "item.fantasys_mod.bloonus_armor_leggings": "Bloonus Leggings",
@@ -2427,6 +2468,7 @@
       "item.fantasys_mod.greenus_shovel": "Greenus Shovel",
       "entity.fantasys_mod.ender_pig": "Ender Pig",
       "item.fantasys_mod.greenus_armor_leggings": "Greenus Leggings",
+      "gamerule.enderPigHealth.description": "How many health should the Ender Pig have",
       "item.fantasys_mod.ultimatum_pickaxe": "Ultimatum Pickaxe",
       "item.fantasys_mod.maestrarium_axe": "Maestrarium Axe",
       "item.fantasys_mod.expertenium_armor_leggings": "Expertenium Leggings",

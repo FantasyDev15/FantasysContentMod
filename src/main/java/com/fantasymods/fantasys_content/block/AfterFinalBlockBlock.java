@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class AfterFinalBlockBlock extends Block {
 	public AfterFinalBlockBlock() {
-		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.ANVIL).strength(2.8F, 10.5F).luminance(0).velocityMultiplier(1.1f));
+		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.ANVIL).strength(2.8f, 10.5f).luminance(0).velocityMultiplier(1.1f));
 	}
 
 	@Override

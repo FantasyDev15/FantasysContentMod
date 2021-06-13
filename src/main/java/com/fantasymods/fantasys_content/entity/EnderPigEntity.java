@@ -77,12 +77,6 @@ public class EnderPigEntity extends TameableEntity {
 		this.goalSelector.add(6, new SwimGoal(this));
 	}
 
-	@Override
-    	protected void dropLoot(DamageSource source, boolean causedByPlayer) {
-    	    super.dropLoot(source, causedByPlayer);
-    	    this.dropItem((FantasysModMod.BloonusIngot_ITEM));
-    	}
-
 	@Nullable
 	@Override
 	protected SoundEvent getAmbientSound() {

@@ -27,7 +27,7 @@ public class OPBlockBlock extends Block {
 	}
 
 	public OPBlockBlock() {
-		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.ANCIENT_DEBRIS).strength(2.1999999999999997F, 11.5F).luminance(8)
+		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.ANCIENT_DEBRIS).strength(2.1999999999999997f, 11.5f).luminance(8)
 				.breakByTool(FabricToolTags.PICKAXES, 7).requiresTool().emissiveLighting(OPBlockBlock::always)
 				.velocityMultiplier(1.2000000000000002f));
 	}

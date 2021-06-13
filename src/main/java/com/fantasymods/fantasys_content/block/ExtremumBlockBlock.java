@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class ExtremumBlockBlock extends Block {
 	public ExtremumBlockBlock() {
-		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).strength(5F, 10F).luminance(0)
+		super(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.METAL).strength(5f, 10f).luminance(0)
 				.breakByTool(FabricToolTags.PICKAXES, 2).requiresTool());
 	}
 

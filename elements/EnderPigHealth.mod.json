@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Ender Pig's Health",
+    "description": "How many health should the Ender Pig have",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 60
+  }
+}

@@ -77,7 +77,7 @@
     "immuneToWither": true,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:BloonusIngot"
+      "value": ""
     },
     "livingSound": {
       "value": ""
